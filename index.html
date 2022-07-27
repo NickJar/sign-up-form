@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="left-content">
+            <div class="logo">Image by Cash Macanaya</div>
+        </div>
+        <div class="right-content">
+            <div class="header">
+                <p><h1 style="color: rgb(85, 85, 85)">Lorem ipsum</h1> <span style="color:rgb(116, 116, 116)">dolor sit amet, consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et <br><br>dolore magna aliqua.</span></p>
+            </div>
+            <form action="#">
+                <!-- <p class="form-title">
+                    dolor sit amet
+                </p> -->
+                <div class="form-content">
+                    
+                    <div class="input">
+                        <label for="fname">*First Name:</label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                    <div class="input">
+                        <label for="lname">*Last Name:</label>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">*Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone">*Phone:</label>
+                        <input type="text" name="phone" id="phone" placeholder="###-###-####" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$" required>
+                    </div>
+                    <div class="input">
+                        <label for="password">*Password:</label>
+                        <input type="password" name="password" id="password" readquired>
+                    </div>
+                    <div class="input">
+                        <label for="cpassword">*Confirm Password:</label>
+                        <input type="password" name="cpassword" id="cpassword" onkeyup="check()" required>
+                        <span id="message"></span>
+                    </div>
+                </div>
+            <div class="submit">
+                <button id="submit">Sign Up</button>
+            </div>
+            </form>
+            <div class="login">
+                <span style="color: rgb(116, 116, 116)">
+                Already have an Account? </span><a style="text-decoration: none;" href="#">Log In</a>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>

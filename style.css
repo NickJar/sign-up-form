@@ -1,0 +1,123 @@
+/* @font-face { font-family: minecraft; src: url('./fonts/Minecraft.ttf'); } 
+@font-face { font-family: minecraft; font-weight: bold; src: url('./fonts/Minecraft.ttf');}
+@font-face { font-family: blueberry; src: url('./fonts/blueberry_days/Blueberry\ Days.otf'); } 
+@font-face { font-family: blueberry; font-weight: bold; src: url('./fonts/blueberry_days/Blueberry\ Days.otf');}
+@font-face { font-family: lemon; src: url('./fonts/lemon_days/Lemon\ Days.otf'); } 
+@font-face { font-family: lemon; font-weight: bold; src: url('./fonts/lemon_days/Lemon\ Days.otf');}
+@font-face { font-family: dreams; src: url('./fonts/billion_dreams/BillionDreams_PERSONAL.ttf'); } 
+@font-face { font-family: dreams; font-weight: bold; src: url('./fonts/billion_dreams/BillionDreams_PERSONAL.ttf');}
+@font-face { font-family: rage; src: url('./fonts/road_rage/Road_Rage.otf'); } 
+@font-face { font-family: happy; font-weight: bold; src: url('./fonts/kg_happy/KGHAPPY.ttf');}
+@font-face { font-family: sunday; font-weight: bold; src: url('./fonts/Sunday\ Best\ ttf.ttf');} */
+body{
+    background-color: black;
+    background-size: cover;
+    
+    margin: 0px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* box-shadow: 8px 8px 4px -4px gray; */
+    
+}
+.left-content{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 5px;
+    background-image: url(./assets/bg-8.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 35%;
+    
+
+}
+.right-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    gap: 30px;
+    background-color: rgb(245, 245, 245);
+
+}
+.form-content{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   gap: 10px;
+   height: 200px;
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 8px 4px -4px gray;
+   border-radius: 10px;
+   padding:10px;
+   padding-top: 20px;
+}
+.submit{
+    padding-top: 30px;
+    padding-left: 15px;
+    font-family: 'poppins';
+}
+.login{
+    padding-left: 15px;
+    font-family: 'poppins';
+}
+.header{
+    padding-left: 15px;
+    font-family: 'poppins';
+}
+.form-title{
+    padding-left: 15px;
+    font-family: 'poppins';
+}
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    font-size:small;
+    color: rgb(116, 116, 116)
+}
+
+button{
+    font-family: 'poppins';
+    font-size: medium;
+    width: 25%;
+    height: 30px;
+    background-color: rgb(31, 184, 255);
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: rgb(73, 198, 255);
+}
+a{
+    color: rgb(31, 184, 255);
+}
+input{
+    border: none;
+    border: 2px solid rgb(212, 212, 212);
+    border-radius: 3px;
+    height: 15px;
+    background-color: rgb(237, 237, 237);
+}
+input:focus{
+    outline: none !important;
+    border: 3px solid rgb(0, 136, 199);
+}
+.logo{
+  
+    font-size:xx-small;
+   
+    color: rgb(235, 235, 235);
+    font-family: 'poppins';
+    
+}
